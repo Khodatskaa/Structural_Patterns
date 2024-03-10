@@ -4,7 +4,10 @@
     {
         static void Main()
         {
-            
+            IFacade proxyFacade = new ProxyFacade();
+            proxyFacade.Operation();
+
+            Console.ReadLine();
         }
     }
 }
